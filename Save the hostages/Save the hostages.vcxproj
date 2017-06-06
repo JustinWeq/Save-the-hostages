@@ -142,6 +142,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Form.h" />
+    <ClInclude Include="Helper.h" />
+    <ClInclude Include="Initable.h" />
+    <ClInclude Include="Injector.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="RenderInterface.h" />
+    <ClInclude Include="Runnable.h" />
+    <ClInclude Include="Sizeable.h" />
+    <ClInclude Include="texture.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Form.cpp" />
+    <ClCompile Include="Initable.cpp" />
+    <ClCompile Include="Runnable.cpp" />
+    <ClCompile Include="Sizeable.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
