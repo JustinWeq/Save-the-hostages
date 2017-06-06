@@ -1,2 +1,4 @@
 #ignore all open database files
 *.opendb
+# ignore all db files
+*.db
